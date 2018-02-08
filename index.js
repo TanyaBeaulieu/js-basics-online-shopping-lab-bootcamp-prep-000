@@ -109,7 +109,7 @@ function placeOrder(cardNumber) {
     console.log(t);
     cart = [];
     console.log(`Your total cost is ${t}, which will be charged to the card ${cardNumber}.`);
-    return;
+    return cart;
   }
 }
 
